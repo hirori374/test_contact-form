@@ -1,0 +1,164 @@
+.contact-form__content {
+    max-width: 1512px;
+    margin: 0 auto;
+}
+.contact-form__heading {
+    margin: 0 auto;
+    font-family: inika;
+    font-weight: 400;
+    font-size: 35px;
+    color: #8B7969;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+.form__group {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__group-title {
+    width: 35%;
+}
+.form__label--item {
+    color: #8B7969;
+    font-family: inika;
+    font-weight: 400;
+    font-size: 20px;
+}
+.form__input--text {
+    display: flex;
+}
+.form__label--required {
+    display: flex;
+    color: #ff0000;
+}
+.form__group-content {
+    width: 60%;
+}
+.form__error {
+    padding: 5px 10px;
+    color: #ff0000;
+    font-family: inika;
+    font-weight: 400;
+    font-size: 14px;
+}
+.form__input--name {
+    display: flex;
+    width: 100%;
+}
+.form__input--name input {
+    width: 50%;
+}
+.form__input--name input:first-child {
+    margin-right: 30px;
+}
+.form__input--tel {
+    display: flex;
+    width: 100%;
+}
+.form__input--tel input {
+    width: 30%;
+}
+.form__input--tel span {
+    padding: 10px 15px;
+    width: 10%;
+    text-align: center;
+    color: #8B7969;
+    font-family: inika;
+    font-weight: 400;
+}
+.form__input--text input,
+.form__input--textarea textarea {
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #F4F4F4;
+    border: none;
+    color: #8B7969;
+    font-family: inika;
+    font-weight: 400;
+    appearance: none;
+}
+.form__input--textarea textarea {
+    height: 150px;
+}
+.form__input--radio {
+    display: flex;
+    color: #8B7969;
+    font-family: inika;
+    font-weight: 400;
+    font-size: 18px;
+}
+.form__input--radio label {
+    margin-right: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.radio-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 16px;
+}
+.form__input--radio input {
+    margin-right: 10px;
+}
+.radio-input {
+    display: none;
+}
+.radio-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #8B7969;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+}
+.radio-input:checked+.radio-custom {
+    background-color: #8B7969;
+    border-color: #8B7969;
+}
+.radio-input:checked+.radio-custom::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background: #8B7969;
+    border-radius: 50%;
+}
+.form__input--select select {
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #F4F4F4;
+    border: none;
+    color: #8B7969;
+    font-family: inika;
+    font-weight: 400;
+    appearance: none;
+    position: relative;
+}
+.form__input--select select::after {
+    position: absolute;
+    content: "";
+    background-color: #BEB1A6;
+    transform: rotate(180dg);
+}
+/*擬似要素、.form__group-contentの幅見直し*/
+.form__button {
+    margin: 30px 0;
+    text-align: center;
+}
+.form__button-submit {
+    padding: 5px 30px;
+    background-color: #82756A;
+    color: #fff;
+    font-family: inika;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}

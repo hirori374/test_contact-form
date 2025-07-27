@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-utilities {
+    display: flex;
+}
+
+.header__inner-logo {
+    margin: 0 auto;
+    position: relative;
+}
+
+.register__button {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+
+.register__button-submit {
+    background-color: #F0F0F099;
+    color: #D9C6B5;
+    padding: 3px 10px;
+    font-family: inika;
+    font-weight: 400;
+    border: #D9C6B5 1px solid;
+    cursor: pointer;
+    text-align: center;
+}
+
+.login-form__contact {
+    padding-bottom: 200px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #f1ece7;
+}
+
+.login-form__heading {
+    margin: 0 auto;
+    padding: 40px;
+    font-family: inika;
+    font-weight: 400;
+    font-size: 35px;
+    color: #8B7969;
+    text-align: center;
+}
+
+.form {
+    width: 45%;
+    margin: 0 auto;
+    padding: 70px 50px;
+    background-color: #fff;
+    border: 1px solid #C5B9B0;
+    border-radius: 7px;
+}
+
+.form__group {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form__group-title {
+    font-family: inika;
+    font-weight: 400;
+    font-size: 18px;
+    color: #8B7969;
+    margin-bottom: 5px;
+}
+
+.form__input--text {
+    margin-bottom: 30px;
+}
+
+.form__input--text input {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #F4F4F4;
+    color: #8B7969;
+    border: none;
+    font-family: inika;
+    font-weight: 400;
+}
+.form__error {
+    color: #ff0000;
+    font-family: inika;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.form__button {
+    margin: 10px 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px 30px;
+    background-color: #82756A;
+    color: #fff;
+    font-family: inika;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}

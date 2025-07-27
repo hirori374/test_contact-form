@@ -1,0 +1,20 @@
+.header {
+    max-width: 1512px;
+}
+
+.header__inner {
+    width: 100%;/*width確認*/
+    margin: 0 auto;
+    padding: 20px 0 15px;
+    border: 1px solid #E0DFDE;
+}
+
+.header__inner-logo {
+    display: block;
+    font-family: inika;
+    font-weight: 400;
+    font-size: 40px;
+    color: #8B7969;
+    text-decoration: none;
+    text-align: center;
+}
