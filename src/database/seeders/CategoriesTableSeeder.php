@@ -15,23 +15,23 @@ class CategoriesTableSeeder extends Seeder
     public function run()
     {
         $param = [
-            'content' => '1.商品のお届けについて'
+            'content' => '商品のお届けについて'
         ];
         DB::table('categories')->insert($param);
         $param = [
-            'content' => '2.商品の交換について'
+            'content' => '商品の交換について'
         ];
         DB::table('categories')->insert($param);
         $param = [
-            'content' => '3.商品トラブル'
+            'content' => '商品トラブル'
         ];
         DB::table('categories')->insert($param);
         $param = [
-            'content' => '4.ショップへのお問い合わせ'
+            'content' => 'ショップへのお問い合わせ'
         ];
         DB::table('categories')->insert($param);
         $param = [
-            'content' => '5.その他'
+            'content' => 'その他'
         ];
         DB::table('categories')->insert($param);
     }
